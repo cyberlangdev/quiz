@@ -133,6 +133,62 @@ export const questionsData = {
       answer: 'يتمل المخترق من الوصول إلى موقع ويب لمنظمة ما ثم يقوم بحجبه يو تعديله لخدمة مصالح سياسية يو اوتصادية يو اجتماعية.',
       type: 'definition',
       category: 'أنواع الهجمات السيبرانية'
+    },
+    {
+      id: 'def_20',
+      question: 'ما هو برنامج الفدية (Ransomware)؟',
+      answer: 'برنامج ضار يقوم بتشفير ملفات المستخدم وطلب فدية (عادةً بالعملات الرقمية) مقابل مفتاح فك التشفير.',
+      type: 'definition',
+      category: 'أنواع الهجمات السيبرانية'
+    },
+    {
+      id: 'def_21',
+      question: 'ما المقصود بالهندسة الاجتماعية (Social Engineering)؟',
+      answer: 'استخدام التلاعب النفسي لخداع الأشخاص وجعلهم يكشفون معلومات سرية أو يقومون بأعمال غير آمنة.',
+      type: 'definition',
+      category: 'أنواع الهجمات السيبرانية'
+    },
+    {
+      id: 'def_22',
+      question: 'ما هو التصيد بالرمح (Spear Phishing)؟',
+      answer: 'شكل مستهدف من التصيد الاحتيالي يستهدف فردًا أو مؤسسة معينة برسالة مخصصة لزيادة فرص النجاح.',
+      type: 'definition',
+      category: 'أنواع الهجمات السيبرانية'
+    },
+    {
+      id: 'def_23',
+      question: 'عرف البرامج الضارة (Malware).',
+      answer: 'أي برنامج تم تصميمه لإلحاق الضرر بنظام الكمبيوتر أو سرقة البيانات أو التحكم فيه دون علم المستخدم.',
+      type: 'definition',
+      category: 'أنواع الهجمات السيبرانية'
+    },
+    {
+      id: 'def_24',
+      question: 'ما هو التخفيض (Smurf Attack) في سياق هجمات DoS؟',
+      answer: 'هجوم DoS يقوم فيه المهاجم بإرسال عدد كبير من حزم ICMP المقلدة إلى شبكة الضحية باستخدام عنوان IP الخاص بها كمصدر، مما يتسبب في إغراق الشبكة بالردود.',
+      type: 'definition',
+      category: 'أنواع الهجمات السيبرانية'
+    },
+    {
+      id: 'def_25',
+      question: 'ما هو الجدار الناري (Firewall)؟',
+      answer: 'نظام أمان شبكة يراقب ويتحكم في حركة مرور الشبكة الواردة والصادرة بناءً على قواعد أمان محددة مسبقًا.',
+      type: 'definition',
+      category: 'أساسيات الأمن السيبراني'
+    },
+    {
+      id: 'def_26',
+      question: 'عرف التشفير (Encryption).',
+      answer: 'عملية تحويل المعلومات أو البيانات إلى رمز لمنع الوصول غير المصرح به، مما يضمن السرية.',
+      type: 'definition',
+      category: 'أساسيات الأمن السيبراني'
+    },
+    {
+      id: 'def_27',
+      question: 'ما هو نظام كشف التسلل (Intrusion Detection System - IDS)؟',
+      answer: 'جهاز أو تطبيق يراقب أنشطة الشبكة أو النظام بحثًا عن سياسات تنتهك أو أنشطة ضارة أو انتهاكات معروفة أو غير معروفة ويبلغ عنها.',
+      type: 'definition',
+      category: 'أساسيات الأمن السيبراني'
     }
   ],
 
@@ -312,6 +368,36 @@ export const questionsData = {
       ],
       type: 'enumerate',
       category: 'أنواع الهجمات السيبرانية'
+    },
+    {
+      id: 'enum_15',
+      question: 'عدد أنواع البرامج الضارة (Malware) الشائعة.',
+      answer: [
+        'الفيروسات (Viruses)',
+        'الديدان (Worms)',
+        'أحصنة طروادة (Trojans)',
+        'برامج الفدية (Ransomware)',
+        'برامج التجسس (Spyware)',
+        'البرامج الإعلانية (Adware)',
+        'الجذور الخفية (Rootkits)'
+      ],
+      type: 'enumerate',
+      category: 'أنواع الهجمات السيبرانية'
+    },
+    {
+      id: 'enum_16',
+      question: 'عدد طرق تنفيذ الهندسة الاجتماعية الشائعة.',
+      answer: [
+        'التصيد الاحتيالي (Phishing)',
+        'الاصطياد بالرمح (Spear Phishing)',
+        'الاصطياد الصوتي (Vishing)',
+        'الاصطياد عبر الرسائل النصية القصيرة (Smishing)',
+        'الذريعة (Pretexting)',
+        'المقايضة (Baiting)',
+        'التبادل (Quid Pro Quo)'
+      ],
+      type: 'enumerate',
+      category: 'أنواع الهجمات السيبرانية'
     }
   ],
 
@@ -444,6 +530,46 @@ export const questionsData = {
       rationale: 'هذا هو التعريف الدقيق لاختراق الويب.',
       type: 'trueFalse',
       category: 'أنواع الهجمات السيبرانية'
+    },
+    {
+      id: 'tf_17',
+      question: 'برنامج الفدية (Ransomware) يقوم بتشفير ملفات المستخدم ويطلب فدية مقابل استعادتها.',
+      answer: true,
+      rationale: 'هذا صحيح، برنامج الفدية هو نوع من البرامج الضارة التي تهدف إلى ابتزاز المال عن طريق حجب الوصول إلى البيانات.',
+      type: 'trueFalse',
+      category: 'أنواع الهجمات السيبرانية'
+    },
+    {
+      id: 'tf_18',
+      question: 'الهندسة الاجتماعية (Social Engineering) تعتمد على الثغرات التقنية في الأنظمة بدلاً من التلاعب البشري.',
+      answer: false,
+      rationale: 'الهندسة الاجتماعية تعتمد بشكل أساسي على التلاعب النفسي بالأشخاص واستغلال ثقتهم أو جهلهم، وليس على الثغرات التقنية.',
+      type: 'trueFalse',
+      category: 'أنواع الهجمات السيبرانية'
+    },
+    {
+      id: 'tf_19',
+      question: 'التصيد بالرمح (Spear Phishing) هو هجوم تصيد عشوائي لا يستهدف أفرادًا معينين.',
+      answer: false,
+      rationale: 'التصيد بالرمح هو هجوم تصيد موجه ومخصص يستهدف أفرادًا أو مؤسسات محددة، على عكس التصيد العشوائي (Phishing).',
+      type: 'trueFalse',
+      category: 'أنواع الهجمات السيبرانية'
+    },
+    {
+      id: 'tf_20',
+      question: 'الجدار الناري (Firewall) هو أداة لحماية الشبكة من الوصول غير المصرح به.',
+      answer: true,
+      rationale: 'الجدار الناري يراقب ويتحكم في حركة مرور الشبكة ويعمل كحاجز بين الشبكة الداخلية والشبكات الخارجية غير الموثوق بها.',
+      type: 'trueFalse',
+      category: 'أساسيات الأمن السيبراني'
+    },
+    {
+      id: 'tf_21',
+      question: 'التشفير هو عملية تحويل البيانات من نص مشفر إلى نص عادي.',
+      answer: false,
+      rationale: 'التشفير هو عملية تحويل البيانات من نص عادي إلى نص مشفر (مفتاح سري)، بينما فك التشفير هو العملية العكسية.',
+      type: 'trueFalse',
+      category: 'أساسيات الأمن السيبراني'
     }
   ],
 
@@ -507,7 +633,7 @@ export const questionsData = {
       options: [
         'حوالي 114 مليار دولار أمريكي.',
         'أقل بقليل من 2 مليار دولار أمريكي.',
-        'أكثر من 150 مليار دولار أمريكي.',
+        'أكثر من 150 مليار دولار أمريكي.', // تم تعديل الخيار ليكون أكثر دقة لسياق المعلومات العامة
         '3.86 مليون دولار أمريكي.'
       ],
       correctAnswer: 2,
@@ -617,9 +743,65 @@ export const questionsData = {
       correctAnswer: 2,
       type: 'multipleChoice',
       category: 'أنواع الهجمات السيبرانية'
+    },
+    {
+      id: 'mc_14',
+      question: 'أي من أنواع البرامج الضارة يقوم بتشفير ملفات المستخدم وطلب فدية مقابل مفتاح فك التشفير؟',
+      options: [
+        'فيروس (Virus)',
+        'برنامج الفدية (Ransomware)',
+        'حصان طروادة (Trojan Horse)',
+        'برنامج التجسس (Spyware)'
+      ],
+      correctAnswer: 1,
+      type: 'multipleChoice',
+      category: 'أنواع الهجمات السيبرانية'
+    },
+    {
+      id: 'mc_15',
+      question: 'أي من التقنيات التالية لا يعتبر من طرق تنفيذ الهندسة الاجتماعية؟',
+      options: [
+        'التصيد الاحتيالي (Phishing)',
+        'هجوم حقن SQL (SQL Injection)',
+        'الذريعة (Pretexting)',
+        'الاصطياد الصوتي (Vishing)'
+      ],
+      correctAnswer: 1,
+      type: 'multipleChoice',
+      category: 'أنواع الهجمات السيبرانية'
+    },
+    {
+      id: 'mc_16',
+      question: 'ما هو نظام أمان الشبكة الذي يراقب ويتحكم في حركة المرور الواردة والصادرة بناءً على قواعد محددة؟',
+      options: [
+        'نظام كشف التسلل (IDS)',
+        'الجدار الناري (Firewall)',
+        'برنامج مكافحة الفيروسات (Antivirus)',
+        'نظام منع التسلل (IPS)'
+      ],
+      correctAnswer: 1,
+      type: 'multipleChoice',
+      category: 'أساسيات الأمن السيبراني'
+    },
+    {
+      id: 'mc_17',
+      question: 'أي مما يلي يصف عملية تحويل المعلومات إلى رمز لمنع الوصول غير المصرح به؟',
+      options: [
+        'فك التشفير (Decryption)',
+        'التوثيق (Authentication)',
+        'التشفير (Encryption)',
+        'التخزين (Storage)'
+      ],
+      correctAnswer: 2,
+      type: 'multipleChoice',
+      category: 'أساسيات الأمن السيبراني'
     }
   ]
 };
+
+// دالة لخلط الأسئلة
+
+
 // دالة لخلط الأسئلة
 export const shuffleArray = (array) => {
   const shuffled = [...array];
@@ -631,7 +813,7 @@ export const shuffleArray = (array) => {
 };
 
 // دالة لإنشاء اختبار مخلوط
-export const createMixedQuiz = (numQuestions = 100) => {
+export const createMixedQuiz = (numQuestions = 70) => {
   const allQuestions = [
     ...questionsData.definitions,
     ...questionsData.enumerate,
