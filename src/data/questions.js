@@ -1,275 +1,139 @@
-
 export const questionsData = {
   // أسئلة التعريفات
   definitions: [
     {
       id: 'def_1',
       question: 'عرف الأمن السيبراني.',
-      [cite_start]answer: 'هو حماية البرامج والأجهزة وموارد البيانات المتصلة والمخزنة على الإنترنت[cite: 258]. [cite_start]إنه عملية مستمرة للوعي الأمني والتخطيط الاستراتيجي والتنفيذ والمراقبة والتقييم[cite: 259].',
+      answer: 'هو حماية البرامج والأجهزة وموارد البيانات المتصلة والمخزنة على الإنترنت. إنه عملية مستمرة للوعي الأمني والتخطيط الاستراتيجي والتنفيذ والمراقبة والتقييم.',
       type: 'definition',
       category: 'أساسيات الأمن السيبراني'
     },
     {
       id: 'def_2',
       question: 'عرف الهجوم السيبراني (Cyber Attack).',
-      [cite_start]answer: 'هو الوصول إلى الأنظمة الشرعية - الخوادم أو أجهزة الكمبيوتر أو الشبكة أو البرامج - بشكل غير قانوني وفرض السيطرة على هذه الأنظمة لتنفيذ أنشطة ضارة مثل سرقة المعلومات وتلف البيانات وتلف الأنظمة وانقطاع التشغيل السلس للشبكات المشروعة والأنظمة[cite: 294].',
+      answer: 'هو الوصول إلى الأنظمة الشرعية - الخوادم أو أجهزة الكمبيوتر أو الشبكة أو البرامج - بشكل غير قانوني وفرض السيطرة على هذه الأنظمة لتنفيذ أنشطة ضارة مثل سرقة المعلومات وتلف البيانات وتلف الأنظمة وانقطاع التشغيل السلس للشبكات المشروعة والأنظمة.',
       type: 'definition',
       category: 'أساسيات الأمن السيبراني'
     },
     {
       id: 'def_3',
       question: 'عرف السرية (Confidentiality) في الأمن السيبراني.',
-      [cite_start]answer: 'يقصد به أن البيانات متاحة فقط للأفراد المصرح لهم الوصول إليها بالدخول ولا تقع في الأيدي الخطأ[cite: 266].',
+      answer: 'يقصد به أن البيانات متاحة فقط للأفراد المصرح لهم الوصول إليها بالدخول ولا تقع في الأيدي الخطأ.',
       type: 'definition',
       category: 'أساسيات الأمن السيبراني'
     },
     {
       id: 'def_4',
       question: 'عرف السلامة (Integrity) في الأمن السيبراني.',
-      [cite_start]answer: 'يقصد به أن البيانات دقيقة وموثوقة بشكل جيد ولم يتم تغييرها أو تعديلها والعبث بها[cite: 267].',
+      answer: 'يقصد به أن البيانات دقيقة وموثوقة بشكل جيد ولم يتم تغييرها أو تعديلها والعبث بها.',
       type: 'definition',
       category: 'أساسيات الأمن السيبراني'
     },
     {
       id: 'def_5',
       question: 'عرف التوافر (Availability) في الأمن السيبراني.',
-      [cite_start]answer: 'هو ضمان سهولة الوصول إلى البيانات في أي وقت ومن أي مكان لتلبية احتياجات العملاء[cite: 268].',
+      answer: 'هو ضمان سهولة الوصول إلى البيانات في أي وقت ومن أي مكان لتلبية احتياجات العملاء.',
       type: 'definition',
       category: 'أساسيات الأمن السيبراني'
     },
     {
       id: 'def_6',
       question: 'عرف هجوم رفض الخدمة (DoS).',
-      [cite_start]answer: 'هو حدث متعلق بأمن الإنترنت يهاجم فيه المتسللون (hackers) خادمًا معينًا (Server) يقوم بتشغيل بعض خدمات الإنترنت لمنعه من العمل بشكل طبيعي أو لإيقاف الخدمات[cite: 346].',
+      answer: 'هو حدث متعلق بأمن الإنترنت يهاجم فيه المتسللون (hackers) خادمًا معينًا (Server) يقوم بتشغيل بعض خدمات الإنترنت لمنعه من العمل بشكل طبيعي أو لإيقاف الخدمات.',
       type: 'definition',
       category: 'أنواع الهجمات السيبرانية'
     },
     {
       id: 'def_7',
       question: 'عرف هجوم رفض الخدمة الموزع (DDoS).',
-      [cite_start]answer: 'هو نوع من هجمات رفض الخدمة DoS[cite: 355]. [cite_start]يتم فيه تعطيل الخوادم أو إغراقها بحركة المرور الضارة لمنع المستخدمين الشرعيين من الوصول إلى حساباتهم أو الخدمات المشروعة عبر الإنترنت[cite: 356].',
+      answer: 'هو نوع من هجمات رفض الخدمة DoS. يتم فيه تعطيل الخوادم أو إغراقها بحركة المرور الضارة لمنع المستخدمين الشرعيين من الوصول إلى حساباتهم أو الخدمات المشروعة عبر الإنترنت.',
       type: 'definition',
       category: 'أنواع الهجمات السيبرانية'
     },
     {
       id: 'def_8',
       question: 'عرف القرصنة الحاسوبية (Computer Hacking).',
-      [cite_start]answer: 'إنها ممارسة تعديل أجهزة وبرامج الحاسوب لتحقيق هدف خارج الغرض الأصلي للمستخدم[cite: 363].',
+      answer: 'إنها ممارسة تعديل أجهزة وبرامج الحاسوب لتحقيق هدف خارج الغرض الأصلي للمستخدم.',
       type: 'definition',
       category: 'أنواع الهجمات السيبرانية'
     },
     {
       id: 'def_9',
       question: 'عرف هجمات الرجل في المنتصف (MITM).',
-      [cite_start]answer: 'في هجمات الرجل في الوسط "Man-in-the-Middle" يعترض المتسلل (hacker) الاتصال العادي بين المستخدم وخادم الويب (web server) دون أي معرفة بكل من المستخدم والخادم[cite: 376].',
+      answer: 'في هجمات الرجل في الوسط "Man-in-the-Middle" يعترض المتسلل (hacker) الاتصال العادي بين المستخدم وخادم الويب (web server) دون أي معرفة بكل من المستخدم والخادم.',
       type: 'definition',
       category: 'أنواع الهجمات السيبرانية'
     },
     {
       id: 'def_10',
       question: 'عرف هجوم حقن لغة الاستعلامات المهيكلة (SQL Injection).',
-      [cite_start]answer: 'هو نوع من الممارسات الضارة لسرقة البيانات القيمة من خادم قاعدة البيانات (database server)[cite: 384].',
+      answer: 'هو نوع من الممارسات الضارة لسرقة البيانات القيمة من خادم قاعدة البيانات (database server).',
       type: 'definition',
       category: 'أنواع الهجمات السيبرانية'
     },
     {
       id: 'def_11',
       question: 'عرف الرسائل الدعائية أو البريد العشوائي (Spamming).',
-      [cite_start]answer: 'في مجال تكنولوجيا المعلومات هو اسم إرسال الرسائل غير المرغوب فيها والرسائل إلى المستخدمين بالجملة دون الحصول على موافقة من المستخدمين[cite: 407].',
+      answer: 'في مجال تكنولوجيا المعلومات هو اسم إرسال الرسائل غير المرغوب فيها والرسائل إلى المستخدمين بالجملة دون الحصول على موافقة من المستخدمين.',
       type: 'definition',
       category: 'أنواع الهجمات السيبرانية'
     },
     {
       id: 'def_12',
       question: 'عرف الإرهاب الإلكتروني (Cyber Terrorism).',
-      [cite_start]answer: 'هو نوع من الجرائم الإلكترونية (cyber crime) للهجوم أو التهديد بمهاجمة أنظمة الكمبيوتر أو البيانات المهمة أو شبكات الكمبيوتر [cite: 421] [cite_start]إما لتلف الموارد السيبرانية أو لسرقة المعلومات الهامة[cite: 421].',
+      answer: 'هو نوع من الجرائم الإلكترونية (cyber crime) للهجوم أو التهديد بمهاجمة أنظمة الكمبيوتر أو البيانات المهمة أو شبكات الكمبيوتر إما لتلف الموارد السيبرانية أو لسرقة المعلومات الهامة.',
       type: 'definition',
       category: 'أنواع الهجمات السيبرانية'
     },
     {
       id: 'def_13',
       question: 'عرف إساءة استخدام الملكية الرقمية (Digital Property Misappropriation).',
-      [cite_start]answer: 'هو استخدام غير قانوني أو احتيالي للموارد الرقمية مثل البرامج والمحتوى الرقمي، بما في ذلك الكتب الإلكترونية والتسجيلات الصوتية ومقاطع الفيديو والصور والكتابات واللوحات وما شابه ذلك دون إذن لمالك هذه الملكية الرقمية[cite: 429].',
+      answer: 'هو استخدام غير قانوني أو احتيالي للموارد الرقمية مثل البرامج والمحتوى الرقمي، بما في ذلك الكتب الإلكترونية والتسجيلات الصوتية ومقاطع الفيديو والصور والكتابات واللوحات وما شابه ذلك دون إذن لمالك هذه الملكية الرقمية.',
       type: 'definition',
       category: 'أنواع الهجمات السيبرانية'
     },
     {
       id: 'def_14',
       question: 'عرف استغلال يوم الصفر (Zero-Day Exploitation).',
-      [cite_start]answer: 'هو ثغرة أمنية في نظام برمجيات الكمبيوتر تُعرف بالضبط في نفس اليوم الذي تستغل فيه الهجمات الضارة تلك الثغرة الأمنية[cite: 438].',
+      answer: 'هو ثغرة أمنية في نظام برمجيات الكمبيوتر تُعرف بالضبط في نفس اليوم الذي تستغل فيه الهجمات الضارة تلك الثغرة الأمنية.',
       type: 'definition',
       category: 'أنواع الهجمات السيبرانية'
     },
     {
       id: 'def_15',
       question: 'عرف التصيد الاحتيالي (Phishing).',
-      [cite_start]answer: 'هو نوع من الهجمات الإلكترونية حيث يتم استهداف الشخص المستهدف برسائل البريد الإلكتروني التي تشابه إلى حد كبير رسائل البريد الإلكتروني الواردة من البنوك وشركات التأمين ومقدمي الخدمات الآخرين[cite: 446].',
+      answer: 'هو نوع من الهجمات الإلكترونية حيث يتم استهداف الشخص المستهدف برساجل البريد الإلكتروني التي تشابه إلى حد كبير رساجل البريد الإلكتروني الواردة من البنوك وارلات التأمي ومقدمي الخدمات اآلخري.',
       type: 'definition',
       category: 'أنواع الهجمات السيبرانية'
     },
     {
       id: 'def_16',
       question: 'عرف التخريب الرقمي (Digital Vandalism).',
-      [cite_start]answer: 'هو شكل مدمر من تهديدات الأمن السيبراني [cite: 458][cite_start]، والذي يتزايد بسرعة كبيرة في الوقت الحاضر[cite: 458]. [cite_start]تتلف فيه البيانات أو الكمبيوتر أو الشبكات أو يتم التلاعب بها بحيث تتغير الأهداف الحقيقية لنظام تكنولوجيا المعلومات بشكل سيئ[cite: 458].',
+      answer: 'هو شكل مدمر من تهديدات الأمن السيبراني، والذي يتزايد بسرعة كبيرة في الوقت الحاضر. تتلف فيه البيانات أو الكمبيوتر أو الشبكات أو يتم التلاعب بها بحيث تتغير الأهداف الحقيقية لنظام تكنولوجيا المعلومات بشكل سيئ.',
       type: 'definition',
       category: 'أنواع الهجمات السيبرانية'
     },
     {
       id: 'def_17',
       question: 'عرف المطاردة عبر الإنترنت (Cyber Stalking).',
-      [cite_start]answer: 'هي واحدة من أخطر المشاكل في مجال الفضاء السيبراني[cite: 467]. [cite_start]وهي شكل من أشكال المضايقة والتهديد[cite: 468].',
+      answer: 'هي واحدة من أخطر المشاكل في مجال الفضاء السيبراني. وهي شكل من أشكال المضايقة والتهديد.',
       type: 'definition',
       category: 'أنواع الهجمات السيبرانية'
     },
     {
       id: 'def_18',
       question: 'عرف عمليات الاحتيال والتزوير الإلكتروني عبر الإنترنت (Cyber Frauds and Forgery).',
-      [cite_start]answer: 'هي شكل جديد من أشكال الهجمات الإلكترونية في العالم الرقمي الحديث[cite: 474]. [cite_start]التزوير والتزييف هو استخدام الكمبيوتر لتزييف وتزوير المستندات[cite: 475].',
+      answer: 'هي شكل جديد من أشكال الهجمات الإلكترونية في العالم الرقمي الحديث. التزوير والتزييف هو استخدام الكمبيوتر لتزييف وتزوير المستندات.',
       type: 'definition',
       category: 'أنواع الهجمات السيبرانية'
     },
     {
       id: 'def_19',
       question: 'عرف اختراق الويب (Web Jacking).',
-      [cite_start]answer: 'يتمل المخترق من الوصول إلى موقع ويب لمنظمة ما ثم يقوم بحجبه أو تعديله لخدمة مصالح سياسية أو اقتصادية أو اجتماعية[cite: 483].',
+      answer: 'يتمل المخترق من الوصول إلى موقع ويب لمنظمة ما ثم يقوم بحجبه يو تعديله لخدمة مصالح سياسية يو اوتصادية يو اجتماعية.',
       type: 'definition',
       category: 'أنواع الهجمات السيبرانية'
     }
-
-        {
-      id: 'def_20',
-      question: 'عرف الأمن السيبراني.',
-      [cite_start]answer: 'هو حماية البرامج والأجهزة وموارد البيانات المتصلة والمخزنة على الإنترنت[cite: 258]. [cite_start]إنه عملية مستمرة للوعي الأمني والتخطيط الاستراتيجي والتنفيذ والمراقبة والتقييم[cite: 259].',
-      type: 'definition',
-      category: 'أساسيات الأمن السيبراني'
-    },
-    {
-      id: 'def_21',
-      question: 'عرف الهجوم السيبراني (Cyber Attack).',
-      [cite_start]answer: 'هو الوصول إلى الأنظمة الشرعية - الخوادم أو أجهزة الكمبيوتر أو الشبكة أو البرامج - بشكل غير قانوني وفرض السيطرة على هذه الأنظمة لتنفيذ أنشطة ضارة مثل سرقة المعلومات وتلف البيانات وتلف الأنظمة وانقطاع التشغيل السلس للشبكات المشروعة والأنظمة[cite: 294].',
-      type: 'definition',
-      category: 'أساسيات الأمن السيبراني'
-    },
-    {
-      id: 'def_22',
-      question: 'عرف السرية (Confidentiality) في الأمن السيبراني.',
-      [cite_start]answer: 'يقصد به أن البيانات متاحة فقط للأفراد المصرح لهم الوصول إليها بالدخول ولا تقع في الأيدي الخطأ[cite: 266].',
-      type: 'definition',
-      category: 'أساسيات الأمن السيبراني'
-    },
-    {
-      id: 'def_23',
-      question: 'عرف السلامة (Integrity) في الأمن السيبراني.',
-      [cite_start]answer: 'يقصد به أن البيانات دقيقة وموثوقة بشكل جيد ولم يتم تغييرها أو تعديلها والعبث بها[cite: 267].',
-      type: 'definition',
-      category: 'أساسيات الأمن السيبراني'
-    },
-    {
-      id: 'def_24',
-      question: 'عرف التوافر (Availability) في الأمن السيبراني.',
-      [cite_start]answer: 'هو ضمان سهولة الوصول إلى البيانات في أي وقت ومن أي مكان لتلبية احتياجات العملاء[cite: 268].',
-      type: 'definition',
-      category: 'أساسيات الأمن السيبراني'
-    },
-    {
-      id: 'def_25',
-      question: 'عرف هجوم رفض الخدمة (DoS).',
-      [cite_start]answer: 'هو حدث متعلق بأمن الإنترنت يهاجم فيه المتسللون (hackers) خادمًا معينًا (Server) يقوم بتشغيل بعض خدمات الإنترنت لمنعه من العمل بشكل طبيعي أو لإيقاف الخدمات[cite: 346].',
-      type: 'definition',
-      category: 'أنواع الهجمات السيبرانية'
-    },
-    {
-      id: 'def_26',
-      question: 'عرف هجوم رفض الخدمة الموزع (DDoS).',
-      [cite_start]answer: 'هو نوع من هجمات رفض الخدمة DoS[cite: 355]. [cite_start]يتم فيه تعطيل الخوادم أو إغراقها بحركة المرور الضارة لمنع المستخدمين الشرعيين من الوصول إلى حساباتهم أو الخدمات المشروعة عبر الإنترنت[cite: 356].',
-      type: 'definition',
-      category: 'أنواع الهجمات السيبرانية'
-    },
-    {
-      id: 'def_27',
-      question: 'عرف القرصنة الحاسوبية (Computer Hacking).',
-      [cite_start]answer: 'إنها ممارسة تعديل أجهزة وبرامج الحاسوب لتحقيق هدف خارج الغرض الأصلي للمستخدم[cite: 363].',
-      type: 'definition',
-      category: 'أنواع الهجمات السيبرانية'
-    },
-    {
-      id: 'def_28',
-      question: 'عرف هجمات الرجل في المنتصف (MITM).',
-      [cite_start]answer: 'في هجمات الرجل في الوسط "Man-in-the-Middle" يعترض المتسلل (hacker) الاتصال العادي بين المستخدم وخادم الويب (web server) دون أي معرفة بكل من المستخدم والخادم[cite: 376].',
-      type: 'definition',
-      category: 'أنواع الهجمات السيبرانية'
-    },
-    {
-      id: 'def_29',
-      question: 'عرف هجوم حقن لغة الاستعلامات المهيكلة (SQL Injection).',
-      [cite_start]answer: 'هو نوع من الممارسات الضارة لسرقة البيانات القيمة من خادم قاعدة البيانات (database server)[cite: 384].',
-      type: 'definition',
-      category: 'أنواع الهجمات السيبرانية'
-    },
-    {
-      id: 'def_30',
-      question: 'عرف الرسائل الدعائية أو البريد العشوائي (Spamming).',
-      [cite_start]answer: 'في مجال تكنولوجيا المعلومات هو اسم إرسال الرسائل غير المرغوب فيها والرسائل إلى المستخدمين بالجملة دون الحصول على موافقة من المستخدمين[cite: 407].',
-      type: 'definition',
-      category: 'أنواع الهجمات السيبرانية'
-    },
-    {
-      id: 'def_31',
-      question: 'عرف الإرهاب الإلكتروني (Cyber Terrorism).',
-      [cite_start]answer: 'هو نوع من الجرائم الإلكترونية (cyber crime) للهجوم أو التهديد بمهاجمة أنظمة الكمبيوتر أو البيانات المهمة أو شبكات الكمبيوتر إما لتلف الموارد السيبرانية أو لسرقة المعلومات الهامة التي يمكن أن تشكل تهديدًا كبيرًا لأمن الحياة العامة، الأنظمة الحكومية، أو حتى أنظمة الدفاع لبلد ما[cite: 421].',
-      type: 'definition',
-      category: 'أنواع الهجمات السيبرانية'
-    },
-    {
-      id: 'def_32',
-      question: 'عرف إساءة استخدام الملكية الرقمية (Digital Property Misappropriation).',
-      [cite_start]answer: 'هو استخدام غير قانوني أو احتيالي للموارد الرقمية مثل البرامج والمحتوى الرقمي، بما في ذلك الكتب الإلكترونية والتسجيلات الصوتية ومقاطع الفيديو والصور والكتابات واللوحات وما شابه ذلك دون إذن لمالك هذه الملكية الرقمية[cite: 429].',
-      type: 'definition',
-      category: 'أنواع الهجمات السيبرانية'
-    },
-    {
-      id: 'def_33',
-      question: 'عرف استغلال يوم الصفر (Zero-Day Exploitation).',
-      [cite_start]answer: 'هو ثغرة أمنية في نظام برمجيات الكمبيوتر تُعرف بالضبط في نفس اليوم الذي تستغل فيه الهجمات الضارة تلك الثغرة الأمنية[cite: 438].',
-      type: 'definition',
-      category: 'أنواع الهجمات السيبرانية'
-    },
-    {
-      id: 'def_34',
-      question: 'عرف التصيد الاحتيالي (Phishing).',
-      [cite_start]answer: 'هو نوع من الهجمات الإلكترونية حيث يتم استهداف الشخص المستهدف برسائل البريد الإلكتروني التي تشابه إلى حد كبير رسائل البريد الإلكتروني الواردة من البنوك وشركات التأمين ومقدمي الخدمات الآخرين[cite: 446].',
-      type: 'definition',
-      category: 'أنواع الهجمات السيبرانية'
-    },
-    {
-      id: 'def_35',
-      question: 'عرف التخريب الرقمي (Digital Vandalism).',
-      [cite_start]answer: 'هو شكل مدمر من تهديدات الأمن السيبراني، والذي يتزايد بسرعة كبيرة في الوقت الحاضر[cite: 458]. [cite_start]تتلف فيه البيانات أو الكمبيوتر أو الشبكات أو يتم التلاعب بها بحيث تتغير الأهداف الحقيقية لنظام تكنولوجيا المعلومات بشكل سيئ[cite: 458].',
-      type: 'definition',
-      category: 'أنواع الهجمات السيبرانية'
-    },
-    {
-      id: 'def_36',
-      question: 'عرف المطاردة عبر الإنترنت (Cyber Stalking).',
-      [cite_start]answer: 'هي واحدة من أخطر المشاكل في مجال الفضاء السيبراني[cite: 467]. [cite_start]وهي شكل من أشكال المضايقة والتهديد[cite: 468].',
-      type: 'definition',
-      category: 'أنواع الهجمات السيبرانية'
-    },
-    {
-      id: 'def_37',
-      question: 'عرف عمليات الاحتيال والتزوير الإلكتروني عبر الإنترنت (Cyber Frauds and Forgery).',
-      [cite_start]answer: 'هي شكل جديد من أشكال الهجمات الإلكترونية في العالم الرقمي الحديث[cite: 474]. [cite_start]التزوير والتزييف هو استخدام الكمبيوتر لتزييف وتزوير المستندات[cite: 475].',
-      type: 'definition',
-      category: 'أنواع الهجمات السيبرانية'
-    },
-    {
-      id: 'def_38',
-      question: 'عرف اختراق الويب (Web Jacking).',
-      [cite_start]answer: 'يتمل المخترق من الوصول إلى موقع ويب لمنظمة ما ثم يقوم بحجبه أو تعديله لخدمة مصالح سياسية أو اقتصادية أو اجتماعية[cite: 483].',
-      type: 'definition',
-      category: 'أنواع الهجمات السيبرانية'
-    }
-
   ],
 
   // أسئلة العدد
@@ -277,7 +141,7 @@ export const questionsData = {
     {
       id: 'enum_1',
       question: 'عدد مكونات الأمن السيبراني (CIA Triad).',
-      [cite_start]answer: ['السرية (Confidentiality) [cite: 265][cite_start]', 'السلامة (Integrity) [cite: 265][cite_start]', 'التوافر (Availability) [cite: 265]'],
+      answer: ['السرية (Confidentiality)', 'السلامة (Integrity)', 'التوافر (Availability)'],
       type: 'enumerate',
       category: 'أساسيات الأمن السيبراني'
     },
@@ -285,13 +149,13 @@ export const questionsData = {
       id: 'enum_2',
       question: 'عدد عناصر الأمن السيبراني.',
       answer: [
-        [cite_start]'أمن المعلومات (Information security - IS) [cite: 270]',
-        [cite_start]'أمن الشبكة (Network security - NS) [cite: 270]',
-        [cite_start]'أمن التطبيق (Application security - AS) [cite: 270]',
-        [cite_start]'تخطيط استمرارية الأعمال / التعافي من الكوارث (Business continuity planning - BCP)/disaster recovery [cite: 270]',
-        [cite_start]'الأمن التشغيلي (Operational security - OPSEC) [cite: 270]',
-        [cite_start]'الأمن السحابي (The Cloud Security) [cite: 270]',
-        [cite_start]'أمن انترنت الأشياء (The IoT (Internet of Things) Security) [cite: 270]'
+        'أمن المعلومات (Information security - IS)',
+        'أمن الشبكة (Network security - NS)',
+        'أمن التطبيق (Application security - AS)',
+        'تخطيط استمرارية الأعمال / التعافي من الكوارث (Business continuity planning - BCP)/disaster recovery',
+        'الأمن التشغيلي (Operational security - OPSEC)',
+        'الأمن السحابي (The Cloud Security)',
+        'أمن انترنت الأشياء (The IoT (Internet of Things) Security)'
       ],
       type: 'enumerate',
       category: 'أساسيات الأمن السيبراني'
@@ -300,12 +164,12 @@ export const questionsData = {
       id: 'enum_3',
       question: 'عدد المناطق المستهدفة بالهجمات السيبرانية.',
       answer: [
-        [cite_start]'خوادم البيانات (Data servers) [cite: 298]',
-        [cite_start]'خوادم التطبيقات (Application servers) [cite: 298]',
-        [cite_start]'خوادم التخزين (Storage servers) [cite: 298]',
-        [cite_start]'معلومات مالية (Financial information) [cite: 298]',
-        [cite_start]'أنظمة التشغيل (Operational systems) [cite: 298]',
-        [cite_start]'شبكات الكمبيوتر (Computer networks) [cite: 298]'
+        'خوادم البيانات (Data servers)',
+        'خوادم التطبيقات (Application servers)',
+        'خوادم التخزين (Storage servers)',
+        'معلومات مالية (Financial information)',
+        'أنظمة التشغيل (Operational systems)',
+        'شبكات الكمبيوتر (Computer networks)'
       ],
       type: 'enumerate',
       category: 'أساسيات الأمن السيبراني'
@@ -314,11 +178,11 @@ export const questionsData = {
       id: 'enum_4',
       question: 'عدد الأهداف الرئيسية للمتسللين (hackers) لإجراء هجمات إلكترونية.',
       answer: [
-        [cite_start]'المال [cite: 308]',
-        [cite_start]'الانتقام [cite: 309]',
-        [cite_start]'المتعة [cite: 310]',
-        [cite_start]'عدم الكشف عن الهوية [cite: 312]',
-        [cite_start]'التجسس الإلكتروني [cite: 315]'
+        'المال',
+        'الانتقام',
+        'المتعة',
+        'عدم الكشف عن الهوية',
+        'التجسس الإلكتروني'
       ],
       type: 'enumerate',
       category: 'أساسيات الأمن السيبراني'
@@ -327,12 +191,12 @@ export const questionsData = {
       id: 'enum_5',
       question: 'عدد المصادر الرئيسية لانتهاك السرية.',
       answer: [
-        [cite_start]'سرقة أجهزة الكمبيوتر المحمولة للموظفين [cite: 323]',
-        [cite_start]'ترك المعلومات السرية لأجهزة الكمبيوتر دون رقابة [cite: 323]',
-        [cite_start]'توفير وصول غير مصرح به إلى شخص غير مهتم [cite: 323]',
-        [cite_start]'الوصول غير المصرح به من قبل المتسلل من خلال البرامج الضارة [cite: 323]',
-        [cite_start]'استشارة موظفي الشركة المخالفين لاتفاقيات السرية [cite: 323]',
-        [cite_start]'الاستخدام غير القانوني للمعلومات لتحقيق مكاسب شخصية أو تجارية [cite: 323]'
+        'سرقة أجهزة الكمبيوتر المحمولة للموظفين',
+        'ترك المعلومات السرية لأجهزة الكمبيوتر دون رقابة',
+        'توفير وصول غير مصرح به إلى شخص غير مهتم',
+        'الوصول غير المصرح به من قبل المتسلل من خلال البرامج الضارة',
+        'استشارة موظفي الشركة المخالفين لاتفاقيات السرية',
+        'الاستخدام غير القانوني للمعلومات لتحقيق مكاسب شخصية أو تجارية'
       ],
       type: 'enumerate',
       category: 'أساسيات الأمن السيبراني'
@@ -341,12 +205,12 @@ export const questionsData = {
       id: 'enum_6',
       question: 'عدد أمثلة البيانات السرية.',
       answer: [
-        [cite_start]'الملكية الفكرية (Intellectual property) [cite: 324]',
-        [cite_start]'معلومات الهوية الشخصية (Personal identity information) [cite: 324]',
-        [cite_start]'معلومات بطاقة الائتمان (Credit card information) [cite: 324]',
-        [cite_start]'معلومات الحساب المصرفي (Bank account information) [cite: 324]',
-        [cite_start]'المعلومات الصحية الشخصية (Personal health information) [cite: 324]',
-        [cite_start]'الأسرار التجارية (Business or trade secrets) [cite: 324]'
+        'الملكية الفكرية (Intellectual property)',
+        'معلومات الهوية الشخصية (Personal identity information)',
+        'معلومات بطاقة الائتمان (Credit card information)',
+        'معلومات الحساب المصرفي (Bank account information)',
+        'المعلومات الصحية الشخصية (Personal health information)',
+        'الأسرار التجارية (Business or trade secrets)'
       ],
       type: 'enumerate',
       category: 'أساسيات الأمن السيبراني'
@@ -355,10 +219,10 @@ export const questionsData = {
       id: 'enum_7',
       question: 'عدد المصادر الرئيسية لخرق التوافر.',
       answer: [
-        [cite_start]'فشل الأجهزة (Failure of hardware) [cite: 331]',
-        [cite_start]'خلل في البرنامج (Malfunction of software) [cite: 331]',
-        [cite_start]'خنق عرض النطاق الترددي للبيانات (Choking of data bandwidth) [cite: 331]',
-        [cite_start]'هجمات رفض الخدمة (DoS attacks) [cite: 331]'
+        'فشل الأجهزة (Failure of hardware)',
+        'خلل في البرنامج (Malfunction of software)',
+        'خنق عرض النطاق الترددي للبيانات (Choking of data bandwidth)',
+        'هجمات رفض الخدمة (DoS attacks)'
       ],
       type: 'enumerate',
       category: 'أساسيات الأمن السيبراني'
@@ -367,84 +231,73 @@ export const questionsData = {
       id: 'enum_8',
       question: 'عدد الطرق التي يحقق بها المتسللون اختراق سلامة البيانات.',
       answer: [
-        [cite_start]'إدخال البرمجيات الخبيثة على الخادم (Introduction of malware on the server) [cite: 339]',
-        [cite_start]'التشفير الخبيث للبيانات (Undoable malicious encryption of data) [cite: 339]',
-        [cite_start]'التلاعب بالبيانات الأصلية (Manipulation of original data) [cite: 339]',
-        [cite_start]'إدخال الفيروسات (Introduction of viruses) [cite: 339]'
+        'إدخال البرمجيات الخبيثة على الخادم (Introduction of malware on the server)',
+        'التشفير الخبيث للبيانات (Undoable malicious encryption of data)',
+        'التلاعب بالبيانات الأصلية (Manipulation of original data)',
+        'إدخال الفيروسات (Introduction of viruses)'
       ],
       type: 'enumerate',
       category: 'أساسيات الأمن السيبراني'
     },
     {
       id: 'enum_9',
-      question: 'عدد أهم أنواع الهجمات الإلكترونية.',
+      question: 'عدد أنواع القرصنة الحاسوبية.',
       answer: [
-        [cite_start]'هجمات البرامج الضارة (Malware attacks) [cite: 299]',
-        [cite_start]'هجمات التصيد الاحتيالي (Phishing attacks) [cite: 299]',
-        [cite_start]'هجوم حقن لغة الاستعلامات المهيكلة (Structured Query Language - SQL Injection) [cite: 299]',
-        [cite_start]'هجمات رفض الخدمة (Denial-of-service - DoS) attacks [cite: 299]',
-        [cite_start]'هجمات رفض الخدمة الموزعة (Distributed Denial-of-service - DDoS) attacks [cite: 299]',
-        [cite_start]'هجمات الرجل في الوسط (Man-in-the-middle - MITM) attacks [cite: 299]',
-        [cite_start]'هجوم اقتحام العملات المشفرة (Crypto jacking attacks) [cite: 299]',
-        [cite_start]'هجوم الرسائل الدعائية والبريد العشوائي (Spamming) [cite: 300]',
-        [cite_start]'هجوم الإرهاب الإلكتروني (Cyber terrorism) [cite: 300]',
-        [cite_start]'هجوم إساءة استخدام الملكية الرقمية (Digital Property Misappropriation) [cite: 300]',
-        [cite_start]'هجوم استغلال يوم الصفر (Zero-Day Exploitation) [cite: 300]',
-        [cite_start]'هجوم التخريب الرقمي (Digital Vandalism) [cite: 300]',
-        [cite_start]'هجوم المطاردة عبر الإنترنت (Cyber stalking) [cite: 300]',
-        [cite_start]'هجوم عمليات الاحتيال والتزوير الرقمي (Cyber Frauds and Forgery) [cite: 300]'
+        'قراصنة القبعة البيضاء (White Hat Hackers)',
+        'قراصنة القبعة السوداء (Black Hat Hackers)',
+        'قراصنة القبعة الرمادية (Grey Hat Hackers)'
       ],
       type: 'enumerate',
       category: 'أنواع الهجمات السيبرانية'
     },
     {
       id: 'enum_10',
-      question: 'عدد الأنواع الرئيسية لهجمات DoS.',
+      question: 'عدد الخطوات الرئيسية لهجوم الرجل في المنتصف (MITM).',
       answer: [
-        [cite_start]'هجوم خادم DNS (DNS server attack) [cite: 354]',
-        [cite_start]'هجوم خادم HTTP (HTTP server attack) [cite: 354]',
-        [cite_start]'تدفق ICMP (ICMP flooding) [cite: 354]',
-        [cite_start]'هجوم الشبكة أو هجوم تجاوز سعة المخزن المؤقت (Network or buffer overflow attack) [cite: 354]',
-        [cite_start]'هجوم ملفات الأسماء الكبيرة على الشبكة أو الخادم (Large name files attack on the network or server) [cite: 354]',
-        [cite_start]'هجوم الفيضان SYN على بروتوكول جلسة TCP (SYN flood attack on TCP handshake protocol) [cite: 354]'
+        'المتسلل يعترض الاتصال بين المستخدم والخادم.',
+        'المتسلل يرسل نسخة من حركة مرور الويب إلى المستخدم والخادم.',
+        'المتسلل يسرق المعلومات الحساسة.'
       ],
       type: 'enumerate',
       category: 'أنواع الهجمات السيبرانية'
     },
     {
       id: 'enum_11',
-      question: 'عدد الأنواع الرئيسية لهجمات DDoS.',
+      question: 'عدد الأنواع الرئيسية لهجمات MITM (Man-in-the-Middle).',
       answer: [
-        [cite_start]'هجمات طبقة التطبيقات القائمة على الاتصال (Connection-based application-layer attacks) [cite: 362]',
-        [cite_start]'هجمات بروتوكول عديم الاتصال من شبكات روبوت متعددة (Connectionless volumetric attacks from multiple botnets) [cite: 362]',
-        [cite_start]'هجمات استنفاذ جدول الحالة (State exhaustion table attacks) [cite: 362]',
-        [cite_start]'جميع التقنيات الأخرى المستخدمة في هجمات DoS [cite: 362]'
+        'هجمات انتحال IP (IP Spoofing)',
+        'هجمات انتحال DNS (DNS Spoofing)',
+        'هجمات انتحال ARP (ARP Spoofing)',
+        'هجمات انتحال HTTPS (HTTPS Spoofing)',
+        'هجمات انتحال البريد الإلكتروني (Email Spoofing)',
+        'هجمات تتبع الجلسة (Session Hijacking)',
+        'هجمات Wi-Fi الضارة (Malicious Wi-Fi Hotspots)'
       ],
       type: 'enumerate',
       category: 'أنواع الهجمات السيبرانية'
     },
     {
       id: 'enum_12',
-      question: 'عدد أنواع القرصنة الحاسوبية.',
+      question: 'عدد الأنواع الرئيسية لهجمات DoS.',
       answer: [
-        [cite_start]'قراصنة القبعة البيضاء (White Hat) [cite: 367]',
-        [cite_start]'قراصنة القبعة السوداء (Black Hat) [cite: 370]',
-        [cite_start]'قراصنة القبعة الرمادية (Grey Hat) [cite: 374]'
+        'هجوم الفيضان (Flood Attack)',
+        'هجوم التعطيل (Crash Attack)',
+        'هجوم التضخيم (Amplification Attack)',
+        'هجوم Fragmentation (Fragmentation Attack)',
+        'هجوم Smurf (Smurf Attack)',
+        'هجوم SYN Flood (SYN Flood Attack)'
       ],
       type: 'enumerate',
       category: 'أنواع الهجمات السيبرانية'
     },
     {
       id: 'enum_13',
-      question: 'عدد الأنواع الرئيسية لهجمات MITM (Man-in-the-Middle).',
+      question: 'عدد الأنواع الرئيسية لهجمات DDoS.',
       answer: [
-        [cite_start]'انتحال DNS (DNS spoofing) [cite: 382]',
-        [cite_start]'انتحال HTTP (HTTP spoofing) [cite: 382]',
-        [cite_start]'انتحال عنوان IP (IP spoofing) [cite: 382]',
-        [cite_start]'اختطاف البريد الإلكتروني (Email hijacking) [cite: 382]',
-        [cite_start]'اختطاف طبقة مآخذ التوصيل الآمنة SSL (SSL (Secure Sockets Layer) hijacking) [cite: 382]',
-        [cite_start]'التنصت على شبكة Wi-Fi (Wi-Fi network eavesdropping) [cite: 382]',
-        [cite_start]'سرقة ملفات تعريف الارتباط الموضوعة على المتصفحات (Stealing the cookies set on the browsers) [cite: 382]'
+        'هجمات طبقة التطبيق (Application-Layer Attacks)',
+        'هجمات البروتوكول (Protocol Attacks)',
+        'هجمات الحجم (Volumetric Attacks)',
+        'هجمات الموارد (Resource Exhaustion Attacks)'
       ],
       type: 'enumerate',
       category: 'أنواع الهجمات السيبرانية'
@@ -453,233 +306,9 @@ export const questionsData = {
       id: 'enum_14',
       question: 'عدد الطرق الرئيسية للتصيد الاحتيالي (Phishing) المستخدمة في أنشطة التصيد الحديثة.',
       answer: [
-        [cite_start]'المكالمات الهاتفية (Telephone calls) [cite: 456]',
-        [cite_start]'رسائل البريد الإلكتروني (Emails) [cite: 457]',
-        [cite_start]'الرسائل النصية القصيرة (SMS) [cite: 457]'
-      ],
-      type: 'enumerate',
-      category: 'أنواع الهجمات السيبرانية'
-    }
-
-     {
-      id: 'enum_16',
-      question: 'عدد مكونات الأمن السيبراني (CIA Triad).',
-      [cite_start]answer: ['السرية (Confidentiality) [cite: 265][cite_start]', 'السلامة (Integrity) [cite: 265][cite_start]', 'التوافر (Availability) [cite: 265]'],
-      type: 'enumerate',
-      category: 'أساسيات الأمن السيبراني'
-    },
-    {
-      id: 'enum_17',
-      question: 'عدد عناصر الأمن السيبراني.',
-      answer: [
-        [cite_start]'أمن المعلومات (Information security - IS) [cite: 270]',
-        [cite_start]'أمن الشبكة (Network security - NS) [cite: 270]',
-        [cite_start]'أمن التطبيق (Application security - AS) [cite: 270]',
-        [cite_start]'تخطيط استمرارية الأعمال / التعافي من الكوارث (Business continuity planning - BCP)/disaster recovery [cite: 270]',
-        [cite_start]'الأمن التشغيلي (Operational security - OPSEC) [cite: 270]',
-        [cite_start]'الأمن السحابي (The Cloud Security) [cite: 270]',
-        [cite_start]'أمن انترنت الأشياء (The IoT (Internet of Things) Security) [cite: 270]'
-      ],
-      type: 'enumerate',
-      category: 'أساسيات الأمن السيبراني'
-    },
-    {
-      id: 'enum_18',
-      question: 'عدد المناطق المستهدفة بالهجمات السيبرانية.',
-      answer: [
-        [cite_start]'خوادم البيانات (Data servers) [cite: 298]',
-        [cite_start]'خوادم التطبيقات (Application servers) [cite: 298]',
-        [cite_start]'خوادم التخزين (Storage servers) [cite: 298]',
-        [cite_start]'معلومات مالية (Financial information) [cite: 298]',
-        [cite_start]'أنظمة التشغيل (Operational systems) [cite: 298]',
-        [cite_start]'شبكات الكمبيوتر (Computer networks) [cite: 298]'
-      ],
-      type: 'enumerate',
-      category: 'أساسيات الأمن السيبراني'
-    },
-    {
-      id: 'enum_19',
-      question: 'عدد الأهداف الرئيسية للمتسللين (hackers) لإجراء هجمات إلكترونية.',
-      answer: [
-        [cite_start]'المال [cite: 308]',
-        [cite_start]'الانتقام [cite: 309]',
-        [cite_start]'المتعة [cite: 310]',
-        [cite_start]'عدم الكشف عن الهوية [cite: 312]',
-        [cite_start]'التجسس الإلكتروني [cite: 315]'
-      ],
-      type: 'enumerate',
-      category: 'أساسيات الأمن السيبراني'
-    },
-    {
-      id: 'enum_20',
-      question: 'عدد المصادر الرئيسية لانتهاك السرية.',
-      answer: [
-        [cite_start]'سرقة أجهزة الكمبيوتر المحمولة للموظفين [cite: 323]',
-        [cite_start]'ترك المعلومات السرية لأجهزة الكمبيوتر دون رقابة [cite: 323]',
-        [cite_start]'توفير وصول غير مصرح به إلى شخص غير مهتم [cite: 323]',
-        [cite_start]'الوصول غير المصرح به من قبل المتسلل من خلال البرامج الضارة [cite: 323]',
-        [cite_start]'استشارة موظفي الشركة المخالفين لاتفاقيات السرية [cite: 323]',
-        [cite_start]'الاستخدام غير القانوني للمعلومات لتحقيق مكاسب شخصية أو تجارية [cite: 323]'
-      ],
-      type: 'enumerate',
-      category: 'أساسيات الأمن السيبراني'
-    },
-    {
-      id: 'enum_21',
-      question: 'عدد أمثلة البيانات السرية.',
-      answer: [
-        [cite_start]'الملكية الفكرية (Intellectual property) [cite: 324]',
-        [cite_start]'معلومات الهوية الشخصية (Personal identity information) [cite: 324]',
-        [cite_start]'معلومات بطاقة الائتمان (Credit card information) [cite: 324]',
-        [cite_start]'معلومات الحساب المصرفي (Bank account information) [cite: 324]',
-        [cite_start]'المعلومات الصحية الشخصية (Personal health information) [cite: 324]',
-        [cite_start]'الأسرار التجارية (Business or trade secrets) [cite: 324]'
-      ],
-      type: 'enumerate',
-      category: 'أساسيات الأمن السيبراني'
-    },
-    {
-      id: 'enum_22',
-      question: 'عدد المصادر الرئيسية لخرق التوافر.',
-      answer: [
-        [cite_start]'فشل الأجهزة (Failure of hardware) [cite: 331]',
-        [cite_start]'خلل في البرنامج (Malfunction of software) [cite: 331]',
-        [cite_start]'خنق عرض النطاق الترددي للبيانات (Choking of data bandwidth) [cite: 331]',
-        [cite_start]'هجمات رفض الخدمة (DoS attacks) [cite: 331]'
-      ],
-      type: 'enumerate',
-      category: 'أساسيات الأمن السيبراني'
-    },
-    {
-      id: 'enum_23',
-      question: 'عدد الطرق التي يحقق بها المتسللون اختراق سلامة البيانات.',
-      answer: [
-        [cite_start]'إدخال البرمجيات الخبيثة على الخادم (Introduction of malware on the server) [cite: 339]',
-        [cite_start]'التشفير الخبيث للبيانات (Undoable malicious encryption of data) [cite: 339]',
-        [cite_start]'التلاعب بالبيانات الأصلية (Manipulation of original data) [cite: 339]',
-        [cite_start]'إدخال الفيروسات (Introduction of viruses) [cite: 339]'
-      ],
-      type: 'enumerate',
-      category: 'أساسيات الأمن السيبراني'
-    },
-    {
-      id: 'enum_24',
-      question: 'عدد أهم أنواع الهجمات الإلكترونية.',
-      answer: [
-        [cite_start]'هجمات البرامج الضارة (Malware attacks) [cite: 299]',
-        [cite_start]'هجمات التصيد الاحتيالي (Phishing attacks) [cite: 299]',
-        [cite_start]'هجوم حقن لغة الاستعلامات المهيكلة (Structured Query Language - SQL Injection) [cite: 299]',
-        [cite_start]'هجمات رفض الخدمة (Denial-of-service - DoS) attacks [cite: 299]',
-        [cite_start]'هجمات رفض الخدمة الموزعة (Distributed Denial-of-service - DDoS) attacks [cite: 299]',
-        [cite_start]'هجمات الرجل في الوسط (Man-in-the-middle - MITM) attacks [cite: 299]',
-        [cite_start]'هجوم اقتحام العملات المشفرة (Crypto jacking attacks) [cite: 299]',
-        [cite_start]'هجوم الرسائل الدعائية والبريد العشوائي (Spamming) [cite: 300]',
-        [cite_start]'هجوم الإرهاب الإلكتروني (Cyber terrorism) [cite: 300]',
-        [cite_start]'هجوم إساءة استخدام الملكية الرقمية (Digital Property Misappropriation) [cite: 300]',
-        [cite_start]'هجوم استغلال يوم الصفر (Zero-Day Exploitation) [cite: 300]',
-        [cite_start]'هجوم التخريب الرقمي (Digital Vandalism) [cite: 300]',
-        [cite_start]'هجوم المطاردة عبر الإنترنت (Cyber stalking) [cite: 300]',
-        [cite_start]'هجوم عمليات الاحتيال والتزوير الرقمي (Cyber Frauds and Forgery) [cite: 300]'
-      ],
-      type: 'enumerate',
-      category: 'أنواع الهجمات السيبرانية'
-    },
-    {
-      id: 'enum_25',
-      question: 'عدد الأعراض الرئيسية لهجوم رفض الخدمة DoS للضحية.',
-      answer: [
-        [cite_start]'عدم القدرة على الوصول إلى مواقع الويب [cite: 352]',
-        [cite_start]'التأخير في الوصول إلى الخدمة عبر الإنترنت [cite: 352]',
-        [cite_start]'تأخيرات كبيرة في فتح الملفات على المواقع [cite: 352]',
-        [cite_start]'زيادة حجم رسائل البريد الإلكتروني العشوائية (spam emails) [cite: 352]',
-        [cite_start]'تدهور أداء الخدمات [cite: 352]'
-      ],
-      type: 'enumerate',
-      category: 'أنواع الهجمات السيبرانية'
-    },
-    {
-      id: 'enum_26',
-      question: 'عدد طرق التخفيف من تأثير هجوم رفض الخدمة DoS.',
-      answer: [
-        [cite_start]'توجيه حركة المرور الضارة (Routing malicious traffic) [cite: 353]',
-        [cite_start]'استخدام موازنات التحميل لتجنب حركة البيانات الخبيثة الكثيفة على السيرفر (Using load balancers to avoid heavy malicious traffic to strive the server) [cite: 353]',
-        [cite_start]'استخدام أنظمة كشف التسلل (Using intrusion detection systems) [cite: 353]',
-        [cite_start]'استخدام أنظمة منع التطفل (Using intrusion prevention systems) [cite: 353]',
-        [cite_start]'استخدام جدران الحماية الأمنية (Using security firewalls) [cite: 353]'
-      ],
-      type: 'enumerate',
-      category: 'أنواع الهجمات السيبرانية'
-    },
-    {
-      id: 'enum_27',
-      question: 'عدد الأنواع الرئيسية لهجمات DoS.',
-      answer: [
-        [cite_start]'هجوم خادم DNS (DNS server attack) [cite: 354]',
-        [cite_start]'هجوم خادم HTTP (HTTP server attack) [cite: 354]',
-        [cite_start]'تدفق ICMP (ICMP flooding) [cite: 354]',
-        [cite_start]'هجوم الشبكة أو هجوم تجاوز سعة المخزن المؤقت (Network or buffer overflow attack) [cite: 354]',
-        [cite_start]'هجوم ملفات الأسماء الكبيرة على الشبكة أو الخادم (Large name files attack on the network or server) [cite: 354]',
-        [cite_start]'هجوم الفيضان SYN على بروتوكول جلسة TCP (SYN flood attack on TCP handshake protocol) [cite: 354]'
-      ],
-      type: 'enumerate',
-      category: 'أنواع الهجمات السيبرانية'
-    },
-    {
-      id: 'enum_28',
-      question: 'عدد الأنواع الرئيسية لهجمات DDoS.',
-      answer: [
-        [cite_start]'هجمات طبقة التطبيقات القائمة على الاتصال (Connection-based application-layer attacks) [cite: 362]',
-        [cite_start]'هجمات بروتوكول عديم الاتصال من شبكات روبوت متعددة (Connectionless volumetric attacks from multiple botnets) [cite: 362]',
-        [cite_start]'هجمات استنفاذ جدول الحالة (State exhaustion table attacks) [cite: 362]',
-        [cite_start]'جميع التقنيات الأخرى المستخدمة في هجمات DoS [cite: 362]'
-      ],
-      type: 'enumerate',
-      category: 'أنواع الهجمات السيبرانية'
-    },
-    {
-      id: 'enum_29',
-      question: 'عدد أنواع القرصنة الحاسوبية.',
-      answer: [
-        [cite_start]'قراصنة القبعة البيضاء (White Hat) [cite: 367]',
-        [cite_start]'قراصنة القبعة السوداء (Black Hat) [cite: 370]',
-        [cite_start]'قراصنة القبعة الرمادية (Grey Hat) [cite: 374]'
-      ],
-      type: 'enumerate',
-      category: 'أنواع الهجمات السيبرانية'
-    },
-    {
-      id: 'enum_30',
-      question: 'عدد الخطوات الرئيسية لهجوم الرجل في المنتصف (MITM).',
-      answer: [
-        [cite_start]'في الخطوة الأولى - يقوم المتسلل بالبحث عن نقاط الضعف في النظام والكابلات[cite: 378].',
-        [cite_start]'في الخطوة الثانية - بمجرد معرفة نقاط الضعف، يتم إرسال رسائل البريد الإلكتروني المخادعة إلى المستخدمين[cite: 379].',
-        [cite_start]'في الخطوة الثالثة - يقومون بفك تشفير معلوماتك بغرض السرقة[cite: 381].'
-      ],
-      type: 'enumerate',
-      category: 'أنواع الهجمات السيبرانية'
-    },
-    {
-      id: 'enum_31',
-      question: 'عدد الأنواع الرئيسية لهجمات MITM (Man-in-the-Middle).',
-      answer: [
-        [cite_start]'انتحال DNS (DNS spoofing) [cite: 382]',
-        [cite_start]'انتحال HTTP (HTTP spoofing) [cite: 382]',
-        [cite_start]'انتحال عنوان IP (IP spoofing) [cite: 382]',
-        [cite_start]'اختطاف البريد الإلكتروني (Email hijacking) [cite: 382]',
-        [cite_start]'اختطاف طبقة مآخذ التوصيل الآمنة SSL (SSL (Secure Sockets Layer) hijacking) [cite: 382]',
-        [cite_start]'التنصت على شبكة Wi-Fi (Wi-Fi network eavesdropping) [cite: 382]',
-        [cite_start]'سرقة ملفات تعريف الارتباط الموضوعة على المتصفحات (Stealing the cookies set on the browsers) [cite: 382]'
-      ],
-      type: 'enumerate',
-      category: 'أنواع الهجمات السيبرانية'
-    },
-    {
-      id: 'enum_32',
-      question: 'عدد الطرق الرئيسية للتصيد الاحتيالي (Phishing) المستخدمة في أنشطة التصيد الحديثة.',
-      answer: [
-        [cite_start]'المكالمات الهاتفية (Telephone calls) [cite: 456]',
-        [cite_start]'رسائل البريد الإلكتروني (Emails) [cite: 457]',
-        [cite_start]'الرسائل النصية القصيرة (SMS) [cite: 457]'
+        'التصيد الاحتيالي عبر البريد الإلكتروني (Email Phishing)',
+        'التصيد عبر الرسائل النصية القصيرة (SMS Phishing - Smishing)',
+        'التصيد الصوتي (Voice Phishing - Vishing)'
       ],
       type: 'enumerate',
       category: 'أنواع الهجمات السيبرانية'
@@ -692,41 +321,47 @@ export const questionsData = {
       id: 'tf_1',
       question: 'الأمن السيبراني هو مجرد إجراء يتم إجراؤه لمرة واحدة.',
       answer: false,
+      rationale: 'الأمن السيبراني ليس مجرد إجراء يتم إجراؤه لمرة واحدة. بل هو عملية مستمرة تتطلب وعيًا وتخطيطًا وتنفيذًا ومراقبة وتقييمًا دائمًا لمواجهة التهديدات المتطورة.',
       type: 'trueFalse',
       category: 'أساسيات الأمن السيبراني'
     },
     {
       id: 'tf_2',
-      [cite_start]question: 'الهدف من نموذج CIA Triad هو أن يكون بمثابة دليل للمنظمات حول الاستراتيجيات الهامة المرتبطة بحماية الشبكة في ابتكار البيانات. [cite: 265]',
+      question: 'الهدف من نموذج CIA Triad هو أن يكون بمثابة دليل للمنظمات حول الاستراتيجيات الهامة المرتبطة بحماية الشبكة في ابتكار البيانات.',
       answer: true,
+      rationale: 'نموذج CIA Triad (السرية، السلامة، التوافر) هو بالفعل إطار عمل أساسي يوجه المنظمات في تطوير استراتيجيات حماية البيانات والشبكات.',
       type: 'trueFalse',
       category: 'أساسيات الأمن السيبراني'
     },
     {
       id: 'tf_3',
-      [cite_start]question: 'خرق السرية يحدث عندما يتم الكشف عن المعلومات أو البيانات الشخصية المقدمة من قبل عميل لمنظمة دون الحصول على موافقة. [cite: 319]',
+      question: 'خرق السرية يحدث عندما يتم الكشف عن المعلومات أو البيانات الشخصية المقدمة من قبل عميل لمنظمة دون الحصول على موافقة.',
       answer: true,
+      rationale: 'هذا هو التعريف الدقيق لخرق السرية، حيث يتم الكشف عن معلومات حساسة لأطراف غير مصرح لها.',
       type: 'trueFalse',
       category: 'أساسيات الأمن السيبراني'
     },
     {
       id: 'tf_4',
-      [cite_start]question: 'المتسلل يهاجم بيانات العميل المخزنة على خوادم تابعة لمؤسسة ما، وعادة ما يتم ذلك من خلال طرق متعددة للوصول إلى المعلومات التي يتم توفيرها للمنظمة بسرية. [cite: 320]',
+      question: 'المتسلل يهاجم بيانات العميل المخزنة على خوادم تابعة لمؤسسة ما، وعادة ما يتم ذلك من خلال طرق متعددة للوصول إلى المعلومات التي يتم توفيرها للمنظمة بسرية.',
       answer: true,
+      rationale: 'هذا وصف دقيق لكيفية حدوث خرق السرية، حيث يسعى المتسللون للوصول غير المصرح به إلى البيانات السرية.',
       type: 'trueFalse',
       category: 'أساسيات الأمن السيبراني'
     },
     {
       id: 'tf_5',
-      [cite_start]question: 'يحدث خرق التوافر عندما يتعذر على المستخدم المصرح له الوصول إلى الخدمات عبر الإنترنت أو المعلومات الشخصية المصرح له. [cite: 326]',
+      question: 'يحدث خرق التوافر عندما يتعذر على المستخدم المصرح له الوصول إلى الخدمات عبر الإنترنت أو المعلومات الشخصية المصرح له.',
       answer: true,
+      rationale: 'هذا هو التعريف الدقيق لخرق التوافر، والذي يعني عدم قدرة المستخدمين الشرعيين على الوصول إلى الموارد أو الخدمات.',
       type: 'trueFalse',
       category: 'أساسيات الأمن السيبراني'
     },
     {
       id: 'tf_6',
-      [cite_start]question: 'خرق السلامة يؤدي إلى إتلاف البيانات وبعد ذلك قد لا يكون لهذه البيانات أي قيمة. [cite: 337]',
+      question: 'خرق السلامة يؤدي إلى إتلاف البيانات وبعد ذلك قد لا يكون لهذه البيانات أي قيمة.',
       answer: true,
+      rationale: 'هذا صحيح، لأن خرق السلامة يعني المساس بدقة البيانات وصلاحيتها، مما قد يجعلها غير صالحة للاستخدام.',
       type: 'trueFalse',
       category: 'أساسيات الأمن السيبراني'
     },
@@ -734,216 +369,79 @@ export const questionsData = {
       id: 'tf_7',
       question: 'الخطأ البشري والموظفون الداخليون ليسوا مصادر رئيسية لانتهاكات السرية.',
       answer: false,
+      rationale: 'الخطأ البشري والموظفون الداخليون (سواء بقصد أو بدون قصد) هم من المصادر الرئيسية لانتهاكات السرية في العديد من الحالات.',
       type: 'trueFalse',
       category: 'أساسيات الأمن السيبراني'
     },
     {
       id: 'tf_8',
-      [cite_start]question: 'تكلفة الأضرار العالمية المتكبدة بسبب الجرائم الإلكترونية تجاوزت 6 تريليون دولار أمريكي. [cite: 284]',
+      question: 'وفقًا لتقرير بحثي بجامعة ميريلاند، هناك هجوم متسلل بمعدل 39 ثانية (في المتوسط) على جهاز كمبيوتر متصل بالإنترنت.',
       answer: true,
+      rationale: 'البيان صحيح وفقًا للمعلومات المقدمة، مما يشير إلى التهديد المستمر للهجمات السيبرانية.',
       type: 'trueFalse',
-      category: 'أساسيات الأمن السيبراني'
+      category: 'أنواع الهجمات السيبرانية'
     },
     {
       id: 'tf_9',
-      [cite_start]question: 'متوسط التكلفة السنوية المتعلقة بالأمن السيبراني يبلغ حوالي 11.7 مليون دولار أمريكي لكل شركة. [cite: 291]',
-      answer: true,
+      question: 'هجوم DDoS أقل فتكًا من هجوم DoS العادي.',
+      answer: false,
+      rationale: 'هجوم DDoS (رفض الخدمة الموزع) هو أكثر فتكًا وأصعب في التخفيف من هجوم DoS العادي لأنه يستخدم مصادر متعددة لمهاجمة الهدف.',
       type: 'trueFalse',
-      category: 'أساسيات الأمن السيبراني'
+      category: 'أنواع الهجمات السيبرانية'
     },
     {
       id: 'tf_10',
-      [cite_start]question: 'وفقًا لتقرير بحثي بجامعة ميريلاند، هناك هجوم متسلل بمعدل 39 ثانية (في المتوسط) على جهاز كمبيوتر متصل بالإنترنت. [cite: 343]',
+      question: 'في هجوم DDoS، يستخدم المخترق جهاز تحكم لاختراق العديد من الأجهزة المعرضة للخطر في جميع أنحاء العالم.',
       answer: true,
+      rationale: 'هذا صحيح، حيث يتم التحكم في الأجهزة المصابة (الروبوتات/الزومبي) لمهاجمة الهدف بشكل منسق في هجوم DDoS.',
       type: 'trueFalse',
       category: 'أنواع الهجمات السيبرانية'
     },
     {
       id: 'tf_11',
-      [cite_start]question: 'هجوم DDoS أقل فتكًا من هجوم DoS العادي. [cite: 357]',
-      answer: false,
+      question: 'قراصنة القبعة البيضاء (White Hat Hackers) يقومون باختراق النظام بنوايا جيدة بهدف إصلاح الثغرات الأمنية.',
+      answer: true,
+      rationale: 'قراصنة القبعة البيضاء هم خبراء أمنيون يستخدمون مهاراتهم بشكل أخلاقي لاكتشاف الثغرات وإصلاحها.',
       type: 'trueFalse',
       category: 'أنواع الهجمات السيبرانية'
     },
     {
       id: 'tf_12',
-      [cite_start]question: 'في هجوم DDoS، يستخدم المخترق جهاز تحكم لاختراق العديد من الأجهزة المعرضة للخطر في جميع أنحاء العالم. [cite: 359]',
-      answer: true,
+      question: 'الرسائل الدعائية أو البريد العشوائي (Spamming) تستخدم فقط لأغراض التسويق ولا يمكن أن تحتوي على برامج ضارة.',
+      answer: false,
+      rationale: 'الرسائل الدعائية يمكن أن تحتوي على برامج ضارة وفيروسات وروابط تصيد احتيالي، وليست مقتصرة على التسويق.',
       type: 'trueFalse',
       category: 'أنواع الهجمات السيبرانية'
     },
     {
       id: 'tf_13',
-      question: 'قراصنة القبعة السوداء (Black Hat) يقومون باختراق النظام بنوايا جيدة بهدف إصلاح الثغرات الأمنية.',
+      question: 'في استغلال يوم الصفر (Zero-Day Exploitation)، يكون لدى مهندسي البرمجيات وقت كافٍ لإصلاح الثغرة الأمنية قبل أن تستغلها الهجمات الضارة.',
       answer: false,
+      rationale: 'في استغلال يوم الصفر، تُعرف الثغرة الأمنية وتُستغل في نفس اليوم، مما لا يترك وقتًا كافيًا للمطورين لإصدار إصلاح.',
       type: 'trueFalse',
       category: 'أنواع الهجمات السيبرانية'
     },
     {
       id: 'tf_14',
-      question: 'الرسائل الدعائية (Spamming) تستخدم فقط لأغراض التسويق ولا يمكن أن تحتوي على برامج ضارة.',
-      answer: false,
+      question: 'النساء هن الأكثر تضرراً من المطاردة عبر الإنترنت.',
+      answer: true,
+      rationale: 'هذا البيان صحيح وفقًا للمعلومات المقدمة في العديد من الدراسات حول المطاردة عبر الإنترنت.',
       type: 'trueFalse',
       category: 'أنواع الهجمات السيبرانية'
     },
     {
       id: 'tf_15',
-      question: 'في استغلال يوم الصفر (Zero-Day Exploitation)، يكون لدى مهندسي البرمجيات وقت كافٍ لإصلاح الثغرة الأمنية قبل أن تستغلها الهجمات الضارة.',
-      answer: false,
+      question: 'التزوير والتزييف عبر الإنترنت هو استخدام الكمبيوتر لتزييف وتزوير المستندات.',
+      answer: true,
+      rationale: 'هذا هو التعريف الدقيق للاحتيال والتزوير الإلكتروني في سياق الجرائم السيبرانية.',
       type: 'trueFalse',
       category: 'أنواع الهجمات السيبرانية'
     },
     {
       id: 'tf_16',
-      [cite_start]question: 'النساء هن الأكثر تضرراً من المطاردة عبر الإنترنت. [cite: 468]',
+      question: 'اختراق الويب (Web Jacking) هو عملية يقوم فيها المخترق بالسيطرة على موقع ويب وتغيير محتواه أو حجبه لخدمة مصالح معينة.',
       answer: true,
-      type: 'trueFalse',
-      category: 'أنواع الهجمات السيبرانية'
-    },
-    {
-      id: 'tf_17',
-      [cite_start]question: 'التزوير والتزييف عبر الإنترنت هو استخدام الكمبيوتر لتزييف وتزوير المستندات. [cite: 475]',
-      answer: true,
-      type: 'trueFalse',
-      category: 'أنواع الهجمات السيبرانية'
-    },
-    {
-      id: 'tf_18',
-      [cite_start]question: 'الهدف الأساسي في جميع أنماط التصيد الاحتيالي الثلاثة هو سرقة هوية المستخدم الشرعي. [cite: 458]',
-      answer: true,
-      type: 'trueFalse',
-      category: 'أنواع الهجمات السيبرانية'
-    }
-     {
-      id: 'tf_19',
-      question: 'الأمن السيبراني هو مجرد إجراء يتم إجراؤه لمرة واحدة.',
-      answer: false,
-      type: 'trueFalse',
-      category: 'أساسيات الأمن السيبراني'
-    },
-    {
-      id: 'tf_20',
-      question: 'الهدف من نموذج CIA Triad هو أن يكون بمثابة دليل للمنظمات حول الاستراتيجيات الهامة المرتبطة بحماية الشبكة في ابتكار البيانات.',
-      answer: true,
-      type: 'trueFalse',
-      category: 'أساسيات الأمن السيبراني'
-    },
-    {
-      id: 'tf_21',
-      question: 'خرق السرية يحدث عندما يتم الكشف عن المعلومات أو البيانات الشخصية المقدمة من قبل عميل لمنظمة دون الحصول على موافقة.',
-      answer: true,
-      type: 'trueFalse',
-      category: 'أساسيات الأمن السيبراني'
-    },
-    {
-      id: 'tf_22',
-      question: 'المتسلل يهاجم بيانات العميل المخزنة على خوادم تابعة لمؤسسة ما، وعادة ما يتم ذلك من خلال طرق متعددة للوصول إلى المعلومات التي يتم توفيرها للمنظمة بسرية.',
-      answer: true,
-      type: 'trueFalse',
-      category: 'أساسيات الأمن السيبراني'
-    },
-    {
-      id: 'tf_23',
-      question: 'يحدث خرق التوافر عندما يتعذر على المستخدم المصرح له الوصول إلى الخدمات عبر الإنترنت أو المعلومات الشخصية المصرح له.',
-      answer: true,
-      type: 'trueFalse',
-      category: 'أساسيات الأمن السيبراني'
-    },
-    {
-      id: 'tf_24',
-      question: 'خرق السلامة يؤدي إلى إتلاف البيانات وبعد ذلك قد لا يكون لهذه البيانات أي قيمة.',
-      answer: true,
-      type: 'trueFalse',
-      category: 'أساسيات الأمن السيبراني'
-    },
-    {
-      id: 'tf_25',
-      question: 'الخطأ البشري والموظفون الداخليون ليسوا مصادر رئيسية لانتهاكات السرية.',
-      answer: false,
-      type: 'trueFalse',
-      category: 'أساسيات الأمن السيبراني'
-    },
-    {
-      id: 'tf_26',
-      question: 'تكلفة الأضرار العالمية المتكبدة بسبب الجرائم الإلكترونية تجاوزت 6 تريليون دولار أمريكي.',
-      answer: true,
-      type: 'trueFalse',
-      category: 'أساسيات الأمن السيبراني'
-    },
-    {
-      id: 'tf_27',
-      question: 'متوسط التكلفة السنوية المتعلقة بالأمن السيبراني يبلغ حوالي 11.7 مليون دولار أمريكي لكل شركة.',
-      answer: true,
-      type: 'trueFalse',
-      category: 'أساسيات الأمن السيبراني'
-    },
-    {
-      id: 'tf_28',
-      question: 'وفقًا لتقرير بحثي بجامعة ميريلاند، هناك هجوم متسلل بمعدل 39 ثانية (في المتوسط) على جهاز كمبيوتر متصل بالإنترنت.',
-      answer: true,
-      type: 'trueFalse',
-      category: 'أنواع الهجمات السيبرانية'
-    },
-    {
-      id: 'tf_29',
-      question: 'هجوم DDoS أقل فتكًا من هجوم DoS العادي.',
-      answer: false,
-      type: 'trueFalse',
-      category: 'أنواع الهجمات السيبرانية'
-    },
-    {
-      id: 'tf_30',
-      question: 'في هجوم DDoS، يستخدم المخترق جهاز تحكم لاختراق العديد من الأجهزة المعرضة للخطر في جميع أنحاء العالم.',
-      answer: true,
-      type: 'trueFalse',
-      category: 'أنواع الهجمات السيبرانية'
-    },
-    {
-      id: 'tf_31',
-      question: 'قراصنة القبعة السوداء (Black Hat) يقومون باختراق النظام بنوايا جيدة بهدف إصلاح الثغرات الأمنية.',
-      answer: false,
-      type: 'trueFalse',
-      category: 'أنواع الهجمات السيبرانية'
-    },
-    {
-      id: 'tf_32',
-      question: 'الرسائل الدعائية (Spamming) تستخدم فقط لأغراض التسويق ولا يمكن أن تحتوي على برامج ضارة.',
-      answer: false,
-      type: 'trueFalse',
-      category: 'أنواع الهجمات السيبرانية'
-    },
-    {
-      id: 'tf_33',
-      question: 'في استغلال يوم الصفر (Zero-Day Exploitation)، يكون لدى مهندسي البرمجيات وقت كافٍ لإصلاح الثغرة الأمنية قبل أن تستغلها الهجمات الضارة.',
-      answer: false,
-      type: 'trueFalse',
-      category: 'أنواع الهجمات السيبرانية'
-    },
-    {
-      id: 'tf_34',
-      question: 'النساء هن الأكثر تضرراً من المطاردة عبر الإنترنت.',
-      answer: true,
-      type: 'trueFalse',
-      category: 'أنواع الهجمات السيبرانية'
-    },
-    {
-      id: 'tf_35',
-      question: 'التزوير والتزييف عبر الإنترنت هو استخدام الكمبيوتر لتزييف وتزوير المستندات.',
-      answer: true,
-      type: 'trueFalse',
-      category: 'أنواع الهجمات السيبرانية'
-    },
-    {
-      id: 'tf_36',
-      question: 'الهدف الأساسي في جميع أنماط التصيد الاحتيالي الثلاثة هو سرقة هوية المستخدم الشرعي.',
-      answer: true,
-      type: 'trueFalse',
-      category: 'أنواع الهجمات السيبرانية'
-    },
-    {
-      id: 'tf_37',
-      question: 'هجوم التخريب الرقمي يؤثر بشكل مباشر على سمعة واسم العلامة التجارية للشركة أو الشخص أو المعهد.',
-      answer: true,
+      rationale: 'هذا هو التعريف الدقيق لاختراق الويب.',
       type: 'trueFalse',
       category: 'أنواع الهجمات السيبرانية'
     }
@@ -968,7 +466,7 @@ export const questionsData = {
       id: 'mc_2',
       question: 'متى يستطيع المتسللون (hackers) القيام بهجوم ناجح؟',
       options: [
-        [cite_start]'عندما يتم خرق أحد مكونات الأمن السيبراني (CIA Triad). [cite: 318]',
+        'عندما يكون النظام غير محمي بشكل جيد ولديه ثغرات أمنية.',
         'عندما يكون النظام محميًا بشكل كامل.',
         'عندما يقوم الموظفون بتحديث البرامج بانتظام.',
         'عندما يتم استخدام جدار حماية قوي.'
@@ -981,9 +479,9 @@ export const questionsData = {
       id: 'mc_3',
       question: 'أي مما يلي ليس هدفًا من أهداف الهجمات السيبرانية؟',
       options: [
-        [cite_start]'المال [cite: 308]',
-        [cite_start]'الانتقام [cite: 309]',
-        [cite_start]'المتعة [cite: 310]',
+        'سرقة البيانات',
+        'تلف الأنظمة',
+        'تعطيل الخدمات',
         'تعزيز أمن الشبكة' // هذا عكس أهداف الهجمات
       ],
       correctAnswer: 3,
@@ -995,7 +493,7 @@ export const questionsData = {
       question: 'أي من أنواع الهجمات السيبرانية التالية يندرج ضمن أهداف خرق التوافر؟',
       options: [
         'هجمات البرامج الضارة',
-        [cite_start]'هجمات رفض الخدمة (DoS) [cite: 331]', // DoS attack is a source of availability breach
+        'هجمات رفض الخدمة (DoS/DDoS)', // DoS attack is a source of availability breach
         'هجمات التصيد الاحتيالي',
         'اختراق الملكية الرقمية'
       ],
@@ -1005,11 +503,11 @@ export const questionsData = {
     },
     {
       id: 'mc_5',
-      [cite_start]question: 'بلغ إجمالي الإنفاق العالمي المتعلق بالأمن السيبراني في بداية عام 2022: [cite: 282]',
+      question: 'بلغ إجمالي الإنفاق العالمي المتعلق بالأمن السيبراني في بداية عام 2022:',
       options: [
         'حوالي 114 مليار دولار أمريكي.',
         'أقل بقليل من 2 مليار دولار أمريكي.',
-        'تجاوز تريليون دولار أمريكي.',
+        'أكثر من 150 مليار دولار أمريكي.',
         '3.86 مليون دولار أمريكي.'
       ],
       correctAnswer: 2,
@@ -1021,7 +519,7 @@ export const questionsData = {
       question: 'ما هو الفرق الرئيسي بين هجوم DoS و DDoS؟',
       options: [
         'DoS يستهدف خادمًا واحدًا بينما DDoS يستهدف عدة خوادم.',
-        [cite_start]'DoS يستخدم مصدرًا واحدًا للهجوم بينما DDoS يستخدم مصادر متعددة. [cite: 357]',
+        'DoS يستخدم جهازًا واحدًا لمهاجمة الهدف، بينما DDoS يستخدم أجهزة متعددة (شبكة روبوتات).',
         'DDoS أسهل في منعه من DoS.',
         'لا يوجد فرق جوهري بينهما.'
       ],
@@ -1033,10 +531,10 @@ export const questionsData = {
       id: 'mc_7',
       question: 'أي نوع من قراصنة الكمبيوتر (hackers) يكتشف الثغرات الأمنية ويبلغ مسؤولي الموقع ويعرض إصلاح الخطأ مقابل رسوم استشارية؟',
       options: [
-        'قراصنة القبعة البيضاء (White Hat)',
-        'قراصنة القبعة السوداء (Black Hat)',
-        [cite_start]'قراصنة القبعة الرمادية (Grey Hat) [cite: 374]',
-        'قراصنة القبعة الحمراء'
+        'قراصنة القبعة السوداء',
+        'قراصنة القبعة الحمراء',
+        'قراصنة القبعة الرمادية',
+        'قراصنة القبعة الزرقاء'
       ],
       correctAnswer: 2,
       type: 'multipleChoice',
@@ -1048,7 +546,7 @@ export const questionsData = {
       options: [
         'Java و Python',
         'C++ و C#',
-        [cite_start]'ASP و PHP [cite: 385]',
+        'PHP و ASP.NET',
         'Ruby و Swift'
       ],
       correctAnswer: 2,
@@ -1061,7 +559,7 @@ export const questionsData = {
       options: [
         'هجمات DoS',
         'التصيد الاحتيالي',
-        [cite_start]'الرسائل الدعائية (Spamming) [cite: 407, 409]',
+        'الرسائل الدعائية أو البريد العشوائي (Spamming)',
         'هجمات MITM'
       ],
       correctAnswer: 2,
@@ -1073,7 +571,7 @@ export const questionsData = {
       question: 'الاستغلال الذي يحدث لثغرة أمنية في نظام برمجيات الكمبيوتر في نفس اليوم الذي تُعرف فيه هذه الثغرة، مما لا يترك وقتًا للإصلاح، يُسمى:',
       options: [
         'هجوم DDoS',
-        [cite_start]'استغلال يوم الصفر (Zero-Day Exploitation) [cite: 438]',
+        'استغلال يوم الصفر (Zero-Day Exploitation)',
         'هجوم MITM',
         'التصيد الاحتيالي'
       ],
@@ -1086,7 +584,7 @@ export const questionsData = {
       question: 'أي من أشكال التصيد الاحتيالي (Phishing) يستخدم المكالمات الهاتفية كوسيلة للسرقة؟',
       options: [
         'التصيد عبر الرسائل النصية القصيرة (SMS Phishing)',
-        [cite_start]'التصيد الصوتي (Voice Phishing) [cite: 449]',
+        'التصيد الصوتي (Vishing)',
         'التصيد الاحتيالي عبر البريد الإلكتروني',
         'هجمات SQL Injection'
       ],
@@ -1096,12 +594,12 @@ export const questionsData = {
     },
     {
       id: 'mc_12',
-      question: 'ما هو أحد الأعراض الرئيسية لهجوم رفض الخدمة (DoS) للضحية؟',
+      question: 'ما هو الهدف الرئيسي من هجوم التخريب الرقمي (Digital Vandalism)؟',
       options: [
-        'زيادة سرعة الوصول إلى الخدمة عبر الإنترنت.',
-        'زيادة حجم رسائل البريد الإلكتروني العادية.',
-        [cite_start]'تأخيرات كبيرة في فتح الملفات على المواقع. [cite: 352]',
-        'تحسن أداء الخدمات.'
+        'سرقة المعلومات المالية',
+        'تعطيل الخدمات بشكل مؤقت',
+        'إتلاف البيانات أو التلاعب بها لتغيير أهداف النظام',
+        'التجسس على الاتصالات'
       ],
       correctAnswer: 2,
       type: 'multipleChoice',
@@ -1109,239 +607,17 @@ export const questionsData = {
     },
     {
       id: 'mc_13',
-      question: 'ما هي الطريقة التي يمكن من خلالها تخفيف هجوم رفض الخدمة (DoS)؟',
+      question: 'ما هي الجريمة الإلكترونية التي تتضمن تهديد أو مهاجمة أنظمة الكمبيوتر أو البيانات المهمة لأغراض سياسية أو اجتماعية؟',
       options: [
-        [cite_start]'توجيه حركة المرور الضارة. [cite: 353]',
-        'زيادة التحميل على الخادم.',
-        'إيقاف أنظمة كشف التسلل.',
-        'إيقاف جدران الحماية الأمنية.'
-      ],
-      correctAnswer: 0,
-      type: 'multipleChoice',
-      category: 'أنواع الهجمات السيبرانية'
-    },
-    {
-      id: 'mc_14',
-      question: 'أي من أنواع الهجمات التالية لا يعتمد على مصدر واحد بل على مصادر متعددة للهجوم في نفس الوقت؟',
-      options: [
-        'هجوم DoS.',
-        [cite_start]'هجوم DDoS. [cite: 357]',
-        'هجوم حقن SQL.',
-        'هجوم التصيد الاحتيالي.'
-      ],
-      correctAnswer: 1,
-      type: 'multipleChoice',
-      category: 'أنواع الهجمات السيبرانية'
-    },
-    {
-      id: 'mc_15',
-      question: 'أي مما يلي يعتبر شكلاً من أشكال المضايقة والتهديد ويصيب النساء بشكل خاص؟',
-      options: [
-        'التخريب الرقمي.',
-        [cite_start]'المطاردة عبر الإنترنت. [cite: 467, 468]',
-        'التزوير الرقمي.',
-        'اختراق الويب.'
-      ],
-      correctAnswer: 1,
-      type: 'multipleChoice',
-      category: 'أنواع الهجمات السيبرانية'
-    }
-        {
-      id: 'mc_16',
-      question: 'أي مما يلي ليس من مكونات الأمن السيبراني (CIA Triad)؟',
-      options: [
-        'السرية (Confidentiality)',
-        'السلامة (Integrity)',
-        'التوافر (Availability)',
-        'التشفير (Encryption)'
-      ],
-      correctAnswer: 3,
-      type: 'multipleChoice',
-      category: 'أساسيات الأمن السيبراني'
-    },
-    {
-      id: 'mc_17',
-      question: 'متى يستطيع المتسللون (hackers) القيام بهجوم ناجح؟',
-      options: [
-        'عندما يتم خرق أحد مكونات الأمن السيبراني (CIA Triad).',
-        'عندما يكون النظام محميًا بشكل كامل.',
-        'عندما يقوم الموظفون بتحديث البرامج بانتظام.',
-        'عندما يتم استخدام جدار حماية قوي.'
-      ],
-      correctAnswer: 0,
-      type: 'multipleChoice',
-      category: 'أساسيات الأمن السيبراني'
-    },
-    {
-      id: 'mc_18',
-      question: 'أي مما يلي ليس هدفًا من أهداف الهجمات السيبرانية؟',
-      options: [
-        'المال',
-        'الانتقام',
-        'المتعة',
-        'تعزيز أمن الشبكة'
-      ],
-      correctAnswer: 3,
-      type: 'multipleChoice',
-      category: 'أساسيات الأمن السيبراني'
-    },
-    {
-      id: 'mc_19',
-      question: 'أي من أنواع الهجمات السيبرانية التالية يندرج ضمن أهداف خرق التوافر؟',
-      options: [
-        'هجمات البرامج الضارة',
-        'هجمات رفض الخدمة (DoS)',
-        'هجمات التصيد الاحتيالي',
-        'اختراق الملكية الرقمية'
-      ],
-      correctAnswer: 1,
-      type: 'multipleChoice',
-      category: 'أساسيات الأمن السيبراني'
-    },
-    {
-      id: 'mc_20',
-      question: 'بلغ إجمالي الإنفاق العالمي المتعلق بالأمن السيبراني في بداية عام 2022:',
-      options: [
-        'حوالي 114 مليار دولار أمريكي.',
-        'أقل بقليل من 2 مليار دولار أمريكي.',
-        [cite_start]'تجاوز تريليون دولار أمريكي[cite: 283].',
-        '3.86 مليون دولار أمريكي.'
-      ],
-      correctAnswer: 2,
-      type: 'multipleChoice',
-      category: 'أساسيات الأمن السيبراني'
-    },
-    {
-      id: 'mc_21',
-      question: 'ما هو الفرق الرئيسي بين هجوم DoS و DDoS؟',
-      options: [
-        'DoS يستهدف خادمًا واحدًا بينما DDoS يستهدف عدة خوادم.',
-        [cite_start]'DoS يستخدم مصدرًا واحدًا للهجوم بينما DDoS يستخدم مصادر متعددة[cite: 357].',
-        'DDoS أسهل في منعه من DoS.',
-        'لا يوجد فرق جوهري بينهما.'
-      ],
-      correctAnswer: 1,
-      type: 'multipleChoice',
-      category: 'أنواع الهجمات السيبرانية'
-    },
-    {
-      id: 'mc_22',
-      question: 'أي نوع من قراصنة الكمبيوتر (hackers) يكتشف الثغرات الأمنية ويبلغ مسؤولي الموقع ويعرض إصلاح الخطأ مقابل رسوم استشارية؟',
-      options: [
-        'قراصنة القبعة البيضاء (White Hat)',
-        'قراصنة القبعة السوداء (Black Hat)',
-        [cite_start]'قراصنة القبعة الرمادية (Grey Hat) [cite: 374]',
-        'قراصنة القبعة الحمراء'
-      ],
-      correctAnswer: 2,
-      type: 'multipleChoice',
-      category: 'أنواع الهجمات السيبرانية'
-    },
-    {
-      id: 'mc_23',
-      question: 'ما هي لغات البرمجة التي تستغلها هجمات SQL Injection بشكل شائع في مواقع الويب التقليدية؟',
-      options: [
-        'Java و Python',
-        'C++ و C#',
-        [cite_start]'ASP و PHP [cite: 385, 391]',
-        'Ruby و Swift'
-      ],
-      correctAnswer: 2,
-      type: 'multipleChoice',
-      category: 'أنواع الهجمات السيبرانية'
-    },
-    {
-      id: 'mc_24',
-      question: 'أي من التالي يُعرف بإرسال رسائل غير مرغوب فيها بالجملة دون موافقة المستخدمين، ويمكن أن ينشر البرامج الضارة والفيروسات؟',
-      options: [
-        'هجمات DoS',
         'التصيد الاحتيالي',
-        [cite_start]'الرسائل الدعائية (Spamming) [cite: 409]',
-        'هجمات MITM'
+        'القرصنة الحاسوبية',
+        'الإرهاب الإلكتروني (Cyber Terrorism)',
+        'إساءة استخدام الملكية الرقمية'
       ],
       correctAnswer: 2,
-      type: 'multipleChoice',
-      category: 'أنواع الهجمات السيبرانية'
-    },
-    {
-      id: 'mc_25',
-      question: 'الاستغلال الذي يحدث لثغرة أمنية في نظام برمجيات الكمبيوتر في نفس اليوم الذي تُعرف فيه هذه الثغرة، مما لا يترك وقتًا للإصلاح، يُسمى:',
-      options: [
-        'هجوم DDoS',
-        [cite_start]'استغلال يوم الصفر (Zero-Day Exploitation) [cite: 438, 439]',
-        'هجوم MITM',
-        'التصيد الاحتيالي'
-      ],
-      correctAnswer: 1,
-      type: 'multipleChoice',
-      category: 'أنواع الهجمات السيبرانية'
-    },
-    {
-      id: 'mc_26',
-      question: 'أي من أشكال التصيد الاحتيالي (Phishing) يستخدم المكالمات الهاتفية كوسيلة للسرقة؟',
-      options: [
-        'التصيد عبر الرسائل النصية القصيرة (SMS Phishing)',
-        [cite_start]'التصيد الصوتي (Voice Phishing) [cite: 449]',
-        'التصيد الاحتيالي عبر البريد الإلكتروني',
-        'هجمات SQL Injection'
-      ],
-      correctAnswer: 1,
-      type: 'multipleChoice',
-      category: 'أنواع الهجمات السيبرانية'
-    },
-    {
-      id: 'mc_27',
-      question: 'ما هو أحد الأعراض الرئيسية لهجوم رفض الخدمة (DoS) للضحية؟',
-      options: [
-        'زيادة سرعة الوصول إلى الخدمة عبر الإنترنت.',
-        'زيادة حجم رسائل البريد الإلكتروني العادية.',
-        [cite_start]'تأخيرات كبيرة في فتح الملفات على المواقع[cite: 352].',
-        'تحسن أداء الخدمات.'
-      ],
-      correctAnswer: 2,
-      type: 'multipleChoice',
-      category: 'أنواع الهجمات السيبرانية'
-    },
-    {
-      id: 'mc_28',
-      question: 'ما هي الطريقة التي يمكن من خلالها تخفيف هجوم رفض الخدمة (DoS)؟',
-      options: [
-        [cite_start]'توجيه حركة المرور الضارة[cite: 353].',
-        'زيادة التحميل على الخادم.',
-        'إيقاف أنظمة كشف التسلل.',
-        'إيقاف جدران الحماية الأمنية.'
-      ],
-      correctAnswer: 0,
-      type: 'multipleChoice',
-      category: 'أنواع الهجمات السيبرانية'
-    },
-    {
-      id: 'mc_29',
-      question: 'أي من أنواع الهجمات التالية لا يعتمد على مصدر واحد بل على مصادر متعددة للهجوم في نفس الوقت؟',
-      options: [
-        'هجوم DoS.',
-        [cite_start]'هجوم DDoS[cite: 357].',
-        'هجوم حقن SQL.',
-        'هجوم التصيد الاحتيالي.'
-      ],
-      correctAnswer: 1,
-      type: 'multipleChoice',
-      category: 'أنواع الهجمات السيبرانية'
-    },
-    {
-      id: 'mc_30',
-      question: 'أي مما يلي يعتبر شكلاً من أشكال المضايقة والتهديد ويصيب النساء بشكل خاص؟',
-      options: [
-        'التخريب الرقمي.',
-        [cite_start]'المطاردة عبر الإنترنت[cite: 468].',
-        'التزوير الرقمي.',
-        'اختراق الويب.'
-      ],
-      correctAnswer: 1,
       type: 'multipleChoice',
       category: 'أنواع الهجمات السيبرانية'
     }
-
   ]
 };
 // دالة لخلط الأسئلة
