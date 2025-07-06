@@ -25,7 +25,7 @@ import {
 import '../App.css';
 
 const QuizPage = ({ onQuizComplete }) => {
-  const [questions] = useState(() => createMixedQuiz(30));
+  const [questions] = useState(() => createMixedQuiz(50);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [answers, setAnswers] = useState({});
   const [showResult, setShowResult] = useState(false);
